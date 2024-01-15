@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center ;
   transition: 200ms ease transform;
+  z-index: 1;
 }
 .form__close{
   transform: scale(0);
