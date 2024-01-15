@@ -46,7 +46,7 @@ function App() {
   return (
     <div>
       <h1>Usuarios</h1>
-      <button id="open-form" onClick={handleOpenForm}>+ Crear Nuevo Usuario</button>
+      <button id="open-form" onClick={handleOpenForm}>+ Crear Usuario</button>
       <div className={`form__container ${isFormClose && 'form__close'}`}>
         <FormUser
           createUser={handleCreateUser}
