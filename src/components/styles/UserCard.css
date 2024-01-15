@@ -55,7 +55,7 @@
   border-radius: 0.5em;
   cursor: pointer;
   margin-right: 0.5em; 
-  z-index: -10;
+  z-index: -1;
 }
 
 .user-card button:hover {
